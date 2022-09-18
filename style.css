@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background: url(./images/backgroung1.jpg); */
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.loginbox{
+    width: 350px;
+    height: 380px;
+    background: rgba(0, 0, 0, 0.596);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+.bg img{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    right: 35%;
+    /* left: calc(50%,-50%); */
+
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(249, 251, 252);
+}
+.control input{
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    padding: 8px;
+    margin-right: 10px;
+    margin: 1em 0;
+    padding-right: 0px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0);
+    
+}
+/* input[placeholder=Username]{
+    padding-left: 25px;
+} */
+.control input[type="submit"]{
+    background: rgb(50, 4, 179);
+    color: #fff;
+    font-size: 1.2em;
+    opacity: .6;
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    color: rgb(255, 255, 255);
+}
+.user i{
+    position: absolute;
+    top: 133px;
+    left: 30px;
+    padding: 9px 8px;
+    color: rgb(77, 62, 62);
+}
+.key i{
+    position: absolute;
+    top: 183px;
+    left: 30px;
+    padding: 9px 8px;
+    color: rgb(77, 62, 62);
+}
+::placeholder{
+    color: white;
+    opacity: 100%;
+}
